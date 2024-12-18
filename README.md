@@ -3,12 +3,14 @@
 # Update your connection:
 
 
-``` string server = "SERVERNAME"; //your server
+```
+string server = "SERVERNAME"; //your server
 string user = "USERNAME"; //user name for DB connection
 string password = "PASSWORD"; //password for DB connection
 ```
 # Set this stuff to your liking
-``` string timeout = "0"; //timout of the connection in seconds, 0 = none
+```
+string timeout = "0"; //timout of the connection in seconds, 0 = none
 string tableName = string.Empty; //change to "and table_name = 'YOUR_TABLE'" for a specific table, empty string will query all tables
 int maxQueries = 100; //number of queries per table
 string rowsSelection = "1000000"; //how many rows selected
